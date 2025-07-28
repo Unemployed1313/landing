@@ -1,0 +1,62 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdfdfd;
+  color: #1c1c1e;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #1c1c1e;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.tiles-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 3rem 1rem;
+}
+
+.tile {
+  flex: 1 1 250px;
+  max-width: 300px;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tile:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.skilled {
+  background-color: #0070f3;
+}
+
+.coach {
+  background-color: #22c55e;
+}
+
+.collaborator {
+  background-color: #f59e0b;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+  background-color: #f1f1f1;
+}
